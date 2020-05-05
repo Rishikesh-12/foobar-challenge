@@ -13,7 +13,7 @@ You plan to translate the signs around the space station to Braille so that the 
 The special printer which can print the bumps onto the signs expects the dots in the following order:
 
 
-### Question 2A: Lovely Lucky Lambs
+## Question 2A: Lovely Lucky Lambs
 
 Being a henchman isn't all drudgery. Occasionally, when Commander Lambda is feeling generous, she'll hand out Lucky LAMBs (Lambda's All-purpose Money Bucks). Henchmen can use Lucky LAMBs to buy things like a second pair of socks, a pillow for their bunks, or even a third daily meal!
 

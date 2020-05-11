@@ -1,6 +1,7 @@
 # foobar-challenge
 This is a repository of my foobar contest submissions
 
+----
 
 ## Question 1: Braille Translation
 
@@ -12,6 +13,9 @@ Each character is composed of 6 dots in a 2×3 grid, where each dot can either b
 You plan to translate the signs around the space station to Braille so that the minions under Commander Lambda’s command can feel the bumps on the signs and “read” the text with their touch.
 The special printer which can print the bumps onto the signs expects the dots in the following order:
 
+### Solution - [Here](https://github.com/Rishikesh-12/foobar-challenge/blob/master/foobar1.py)
+
+----
 
 ## Question 2A: Lovely Lucky Lambs
 
@@ -25,6 +29,9 @@ The special printer which can print the bumps onto the signs expects the dots in
 *    3. A henchman will revolt if the amount of LAMBs given to their next two subordinates combined is more than the number of LAMBs they get.  (Note that the two most junior henchmen won't have two subordinates, so this rule doesn't apply to them.  The 2nd most junior henchman would require at least as many LAMBs as the most junior henchman.)
 *    4. You can always find more henchmen to pay - the Commander has plenty of employees.  If there are enough LAMBs left over such that another henchman could be added as the most senior while obeying the other rules, you must always add and pay that henchman.</p>
 
+### Solution - [Here](https://github.com/Rishikesh-12/foobar-challenge/blob/master/foobar2A.py)
+
+---------------
 
 ## Question 2B : Elevator Maintainance
 
@@ -33,3 +40,15 @@ The special printer which can print the bumps onto the signs expects the dots in
 <p>Elevator versions are represented by a series of numbers, divided up into major, minor and revision integers. New versions of an elevator increase the major number, e.g. 1, 2, 3, and so on. When new features are added to an elevator without being a complete new version, a second number named "minor" can be used to represent those new additions, e.g. 1.0, 1.1, 1.2, etc. Small fixes or maintenance work can be represented by a third number named "revision", e.g. 1.1.1, 1.1.2, 1.2.0, and so on. The number zero can be used as a major for pre-release versions of elevators, e.g. 0.1, 0.5, 0.9.2, etc (Commander Lambda is careful to always beta test her new technology, with her loyal henchmen as subjects!).</p>
 
 <p>Given a list of elevator versions represented as strings, write a function answer(l) that returns the same list sorted in ascending order by major, minor, and revision number so that you can identify the current elevator version. The versions in list l will always contain major numbers, but minor and revision numbers are optional. If the version contains a revision number, then it will also have a minor number.</p>
+
+### Solution - [Here](https://github.com/Rishikesh-12/foobar-challenge/blob/master/foobar2B.py)
+
+-----
+
+## Question 3A : Prepare the Bunnies' Escape
+
+<p>You're awfully close to destroying the LAMBCHOP doomsday device and freeing Commander Lambda's bunny prisoners, but once they're free of the prison blocks, the bunnies are going to need to escape Lambda's space station via the escape pods as quickly as possible. Unfortunately, the halls of the space station are a maze of corridors and dead ends that will be a deathtrap for the escaping bunnies. Fortunately, Commander Lambda has put you in charge of a remodeling project that will give you the opportunity to make things a little easier for the bunnies. Unfortunately (again), you can't just remove all obstacles between the bunnies and the escape pods - at most you can remove one wall per escape pod path, both to maintain structural integrity of the station and to avoid arousing Commander Lambda's suspicions. </p>
+
+<p>You have maps of parts of the space station, each starting at a prison exit and ending at the door to an escape pod. The map is represented as a matrix of 0s and 1s, where 0s are passable space and 1s are impassable walls. The door out of the prison is at the top left (0,0) and the door into an escape pod is at the bottom right (w-1,h-1).</p> 
+
+<p>Write a function solution(map) that generates the length of the shortest path from the prison door to the escape pod, where you are allowed to remove one wall as part of your remodeling plans. The path length is the total number of nodes you pass through, counting both the entrance and exit nodes. The starting and ending positions are always passable (0). The map will always be solvable, though you may or may not need to remove a wall. The height and width of the map can be from 2 to 20. Moves can only be made in cardinal directions; no diagonal moves are allowed.</p>

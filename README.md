@@ -87,3 +87,6 @@ Every Facula bomb spontaneously creates a Mach bomb.</p>
 
 <p>For example, [1, 2, 3, 4, 5, 6] has the triples: [1, 2, 4], [1, 2, 6], [1, 3, 6], making the answer 3 total.</p>
 
+### Solution - [Here](https://github.com/Rishikesh-12/foobar-challenge/blob/master/foobar3C.py)
+
+--------

@@ -1,8 +1,6 @@
 # foobar-challenge
 This is a repository of my foobar contest submissions
 
-----
-
 ## Question 1: Braille Translation
 
 Because Commander Lambda is an equal-opportunity despot, she has several visually-impaired minions.
